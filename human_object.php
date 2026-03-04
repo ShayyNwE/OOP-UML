@@ -2,7 +2,7 @@
 
 include "human_class.php";
 
-$human = new Human("Jhon", 30, "Masculin");
+$human = new Human("Jhon","Doe", 30, "Masculin", 1.80, 80);
 
 $human->parler();
 $human->marcher();

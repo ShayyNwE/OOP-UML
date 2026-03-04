@@ -9,7 +9,7 @@ class Human {
     public $poids;
 
     public function __construct($nom, $prenom, $age, $taille, $sexe, $poids) {
-        $this->name = $nom;
+        $this->nom = $nom;
         $this->prenom = $prenom;
         $this->age = $age;
         $this->taille = $taille;
